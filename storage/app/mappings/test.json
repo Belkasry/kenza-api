@@ -1,0 +1,18 @@
+[
+    {
+        "templateKey": "shipment_number",
+        "headerKey": "datedelacommande"
+    },
+    {
+        "templateKey": "package_number",
+        "headerKey": "numrodecommande"
+    },
+    {
+        "templateKey": "shipment_reference",
+        "headerKey": "numrodelacommande"
+    },
+    {
+        "templateKey": "package_reference",
+        "headerKey": "quantitdelacommande"
+    }
+]

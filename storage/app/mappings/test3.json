@@ -1,0 +1,54 @@
+[
+    {
+        "templateKey": "shipment_number",
+        "headerKey": "datedelacommande"
+    },
+    {
+        "templateKey": "package_number",
+        "headerKey": "numrodecommande"
+    },
+    {
+        "templateKey": "shipment_reference",
+        "headerKey": "groupedecomptes"
+    },
+    {
+        "templateKey": "package_reference",
+        "headerKey": "quantitdelacommande"
+    },
+    {
+        "templateKey": "reference_type",
+        "headerKey": "devise"
+    },
+    {
+        "templateKey": "box_number",
+        "headerKey": "soustotaldelacommande"
+    },
+    {
+        "templateKey": "shipper_company",
+        "headerKey": "traitementetexpditiondelacommande"
+    },
+    {
+        "templateKey": "shipper_contact",
+        "headerKey": "taxesurlacommande"
+    },
+    {
+        "templateKey": "ship_add_1",
+        "headerKey": "tatdelacommande"
+    },
+    {
+        "templateKey": "ship_add_2",
+        "headerKey": "tatderceptiondelacommande"
+    },
+    {
+        "templateKey": "ship_add_3",
+        "headerKey": "numrodelacommande"
+    },
+    {
+        "templateKey": "ship_city",
+        "headerKey": "promotionsurlacommande"
+    },
+    {
+        "templateKey": "ship_state",
+        "headerKey": "paysrgiondunumrodetvadelutilisateurducompte"
+    }
+]

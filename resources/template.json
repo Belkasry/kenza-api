@@ -1,0 +1,242 @@
+[
+    {
+        "key": "shipment_number",
+        "label": "Shipment Number",
+        "fige": false
+    },
+    {
+        "key": "package_number",
+        "label": "Package Number",
+        "fige": false
+    },
+    {
+        "key": "shipment_reference",
+        "label": "Shipment Reference",
+        "fige": false
+    },
+    {
+        "key": "package_reference",
+        "label": "Package Reference",
+        "fige": false
+    },
+    {
+        "key": "reference_type",
+        "label": "Reference Type",
+        "fige": true
+    },
+    {
+        "key": "box_number",
+        "label": "Box Number",
+        "fige": true
+    },
+    {
+        "key": "shipper_company",
+        "label": "Shipper Company",
+        "fige": true
+    },
+    {
+        "key": "shipper_contact",
+        "label": "Shipper Contact",
+        "fige": true
+    },
+    {
+        "key": "ship_add_1",
+        "label": "Ship Add 1",
+        "fige": true
+    },
+    {
+        "key": "ship_add_2",
+        "label": "Ship Add 2",
+        "fige": true
+    },
+    {
+        "key": "ship_add_3",
+        "label": "Ship Add 3",
+        "fige": true
+    },
+    {
+        "key": "ship_city",
+        "label": "Ship City",
+        "fige": true
+    },
+    {
+        "key": "ship_state",
+        "label": "Ship State",
+        "fige": false
+    },
+    {
+        "key": "ship_zip",
+        "label": "Ship Zip",
+        "fige": true
+    },
+    {
+        "key": "ship_country_code",
+        "label": "Ship Country Code",
+        "fige": true
+    },
+    {
+        "key": "consignee_company",
+        "label": "Consignee Company",
+        "fige": true
+    },
+    {
+        "key": "consignee_contact",
+        "label": "Consignee Contact",
+        "fige": true
+    },
+    {
+        "key": "cnee_address1",
+        "label": "Cnee Address1",
+        "fige": true
+    },
+    {
+        "key": "cnee_address2",
+        "label": "Cnee Address2",
+        "fige": true
+    },
+    {
+        "key": "cnee_address3",
+        "label": "Cnee Address3",
+        "fige": true
+    },
+    {
+        "key": "cnee_city",
+        "label": "Cnee City",
+        "fige": true
+    },
+    {
+        "key": "cnee_state",
+        "label": "Cnee State",
+        "fige": true
+    },
+    {
+        "key": "cnee_zip",
+        "label": "Cnee Zip",
+        "fige": true
+    },
+    {
+        "key": "cnee_country_code",
+        "label": "Cnee Country Code",
+        "fige": true
+    },
+    {
+        "key": "cnee_email",
+        "label": "Cnee Email",
+        "fige": true
+    },
+    {
+        "key": "cnee_phone",
+        "label": "Cnee Phone",
+        "fige": true
+    },
+    {
+        "key": "cnee_eori",
+        "label": "Cnee EORI",
+        "fige": true
+    },
+    {
+        "key": "pieces",
+        "label": "Pieces",
+        "fige": true
+    },
+    {
+        "key": "total_weight",
+        "label": "Total Weight",
+        "fige": true
+    },
+    {
+        "key": "piece_weight",
+        "label": "Piece Weight",
+        "fige": true
+    },
+    {
+        "key": "weight_uom",
+        "label": "Weight UOM",
+        "fige": true
+    },
+    {
+        "key": "total_value",
+        "label": "Total Value",
+        "fige": true
+    },
+    {
+        "key": "currency",
+        "label": "Currency",
+        "fige": true
+    },
+    {
+        "key": "incoterm",
+        "label": "Incoterm",
+        "fige": true
+    },
+    {
+        "key": "vendor",
+        "label": "Vendor",
+        "fige": true
+    },
+    {
+        "key": "vendor_ioss",
+        "label": "Vendor IOSS",
+        "fige": true
+    },
+    {
+        "key": "service_level",
+        "label": "Service Level",
+        "fige": true
+    },
+    {
+        "key": "additional_info",
+        "label": "Additional Info",
+        "fige": true
+    },
+    {
+        "key": "item_description",
+        "label": "Item Description",
+        "fige": true
+    },
+    {
+        "key": "item_hs_code",
+        "label": "Item HS Code",
+        "fige": true
+    },
+    {
+        "key": "item_quantity",
+        "label": "Item Quantity",
+        "fige": true
+    },
+    {
+        "key": "item_value",
+        "label": "Item Value",
+        "fige": true
+    },
+    {
+        "key": "sku",
+        "label": "SKU",
+        "fige": true
+    },
+    {
+        "key": "item_country_of_origin",
+        "label": "Item Country Of Origin",
+        "fige": true
+    },
+    {
+        "key": "sales_weblink",
+        "label": "Sales Weblink",
+        "fige": true
+    },
+    {
+        "key": "item_weight",
+        "label": "Item Weight",
+        "fige": true
+    },
+    {
+        "key": "agent",
+        "label": "Agent",
+        "fige": true
+    },
+    {
+        "key": "consignee_note",
+        "label": "Consignee Note",
+        "fige": true
+    }
+]
