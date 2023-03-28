@@ -32,7 +32,11 @@ class ExcelExportController extends Controller implements FromCollection, WithMa
         $result = [];
 
         foreach ($this->mapping as $mappingItem) {
-            $result[$mappingItem['templateKey']] = $row[$mappingItem['headerKey']];
+            if ($mappingItem['headerKey'] !== null && array_key_exists($mappingItem['headerKey'], $row)) {
+                $result[$mappingItem['templateKey']] = $row[$mappingItem['headerKey']];
+            } else {
+                $result[$mappingItem['templateKey']] = null; // or provide a default value here
+            }
         }
 
         return $result;
@@ -62,22 +66,27 @@ class ExcelExportController extends Controller implements FromCollection, WithMa
 
     public function styles(Worksheet $sheet)
     {
-//        // Find the columns that have fige property set to true
-//        $columnsToColor = [];
-//        foreach ($this->template as $index => $templateItem) {
-//            if ($templateItem['fige']) {
-//                $columnsToColor[] = $index + 1;
-//            }
-//        }
-//
-//
-//        foreach ($columnsToColor as $columnIndex) {
-//            $sheet->getStyleByColumnAndRow($columnIndex, 1, $sheet->getHighestRow())
-//                ->getFill()
-//                ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
-//                ->getStartColor()
-//                ->setARGB('FFA07A');
-//        }
+        // Find the columns that have fige property set to true
+        $columnsToColor = [];
+        foreach ($this->template as $index => $templateItem) {
+            if ($templateItem['fige']) {
+                $columnsToColor[] = $index + 1;
+            }
+        }
+        $sheet->getStyle('A1:' . $sheet->getHighestColumn() . '1')->getFont()->setSize(14);
+        foreach(range('A',$sheet->getHighestColumn()) as $columnID){
+            $sheet->getColumnDimension($columnID)->setWidth(30);
+        }
+
+        foreach ($columnsToColor as $columnIndex) {
+            $sheet->getStyleByColumnAndRow($columnIndex, 1, $sheet->getHighestRow())
+                ->getFill()
+                ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
+                ->getStartColor()
+                ->setARGB('FFA07A');
+        }
+
+
     }
 
 }

@@ -16,7 +16,6 @@ class ApiController extends Controller
     public function csvupload(Request $request)
     {
         $file = $request->file('csv');
-
         // Check if file exists and delete it
         $tmp_file = storage_path('app/tmp.csv');
         if (file_exists($tmp_file)) {
@@ -38,18 +37,20 @@ class ApiController extends Controller
         $formattedHeader = array_map(function ($value) {
             $key = preg_replace('/[^a-zA-Z0-9]/', '', strtolower(str_replace(' ', '_', $value)));
             return [
-                'text' => $value,
+                'title' => $value,
                 'sortable' => true,
                 'key' => $key,
                 'value' => $key,
             ];
         }, $header);
+        $formattedHeader = array_values(array_unique($formattedHeader, SORT_REGULAR));
         $records = [];
         while (($row = fgetcsv($file)) !== false) {
             $record = [];
             foreach ($formattedHeader as $key => $value) {
                 $record[$value['key']] = $row[$key];
             }
+
             $records[] = $record; // adds the record to the list of records
         }
         fclose($file);
@@ -66,6 +67,25 @@ class ApiController extends Controller
         $data = json_decode($contents, true);
         return response()->json($data);
     }
+
+    public function updateTemplateKeys(Request $request)
+    {
+        $newData = $request->input('data');
+
+        if (empty($newData)) {
+            return response()->json(['message' => 'No data provided'], 400);
+        }
+
+        $path = resource_path('template.json');
+        $result = file_put_contents($path, json_encode($newData));
+
+        if ($result === false) {
+            return response()->json(['message' => 'Failed to update data'], 500);
+        }
+
+        return response()->json(['message' => 'Data updated successfully'], 200);
+    }
+
 
     public function saveConfig(Request $request)
     {

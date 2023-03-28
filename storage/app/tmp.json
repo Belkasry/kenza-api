@@ -1,493 +1,493 @@
 {
     "headers": [
         {
-            "text": "\ufeffDate de la commande",
+            "title": "\ufeffDate de la commande",
             "sortable": true,
             "key": "datedelacommande",
             "value": "datedelacommande"
         },
         {
-            "text": "Num\u00e9ro de la commande",
+            "title": "Num\u00e9ro de la commande",
             "sortable": true,
             "key": "numrodelacommande",
             "value": "numrodelacommande"
         },
         {
-            "text": "Groupe de comptes",
+            "title": "Groupe de comptes",
             "sortable": true,
             "key": "groupedecomptes",
             "value": "groupedecomptes"
         },
         {
-            "text": "Num\u00e9ro de commande",
+            "title": "Num\u00e9ro de commande",
             "sortable": true,
             "key": "numrodecommande",
             "value": "numrodecommande"
         },
         {
-            "text": "Quantit\u00e9 de la commande",
+            "title": "Quantit\u00e9 de la commande",
             "sortable": true,
             "key": "quantitdelacommande",
             "value": "quantitdelacommande"
         },
         {
-            "text": "Devise",
+            "title": "Devise",
             "sortable": true,
             "key": "devise",
             "value": "devise"
         },
         {
-            "text": "Sous-total de la commande",
+            "title": "Sous-total de la commande",
             "sortable": true,
             "key": "soustotaldelacommande",
             "value": "soustotaldelacommande"
         },
         {
-            "text": "Traitement et exp\u00e9dition de la commande",
+            "title": "Traitement et exp\u00e9dition de la commande",
             "sortable": true,
             "key": "traitementetexpditiondelacommande",
             "value": "traitementetexpditiondelacommande"
         },
         {
-            "text": "Promotion sur la commande",
+            "title": "Promotion sur la commande",
             "sortable": true,
             "key": "promotionsurlacommande",
             "value": "promotionsurlacommande"
         },
         {
-            "text": "Taxe sur la commande",
+            "title": "Taxe sur la commande",
             "sortable": true,
             "key": "taxesurlacommande",
             "value": "taxesurlacommande"
         },
         {
-            "text": "Total net de la commande",
+            "title": "Total net de la commande",
             "sortable": true,
             "key": "totalnetdelacommande",
             "value": "totalnetdelacommande"
         },
         {
-            "text": "\u00c9tat de la commande",
+            "title": "\u00c9tat de la commande",
             "sortable": true,
             "key": "tatdelacommande",
             "value": "tatdelacommande"
         },
         {
-            "text": "Approbateur",
+            "title": "Approbateur",
             "sortable": true,
             "key": "approbateur",
             "value": "approbateur"
         },
         {
-            "text": "\u00c9tat de r\u00e9ception de la commande",
+            "title": "\u00c9tat de r\u00e9ception de la commande",
             "sortable": true,
             "key": "tatderceptiondelacommande",
             "value": "tatderceptiondelacommande"
         },
         {
-            "text": "Quantit\u00e9 de commandes re\u00e7ues",
+            "title": "Quantit\u00e9 de commandes re\u00e7ues",
             "sortable": true,
             "key": "quantitdecommandesreues",
             "value": "quantitdecommandesreues"
         },
         {
-            "text": "Utilisateur du compte",
+            "title": "Utilisateur du compte",
             "sortable": true,
             "key": "utilisateurducompte",
             "value": "utilisateurducompte"
         },
         {
-            "text": "E-mail de l'utilisateur du compte",
+            "title": "E-mail de l'utilisateur du compte",
             "sortable": true,
             "key": "emaildelutilisateurducompte",
             "value": "emaildelutilisateurducompte"
         },
         {
-            "text": "Pays\/R\u00e9gion du num\u00e9ro de TVA de l'utilisateur du compte",
+            "title": "Pays\/R\u00e9gion du num\u00e9ro de TVA de l'utilisateur du compte",
             "sortable": true,
             "key": "paysrgiondunumrodetvadelutilisateurducompte",
             "value": "paysrgiondunumrodetvadelutilisateurducompte"
         },
         {
-            "text": "Num\u00e9ro d'enregistrement \u00e0 la TVA de l'utilisateur du compte",
+            "title": "Num\u00e9ro d'enregistrement \u00e0 la TVA de l'utilisateur du compte",
             "sortable": true,
             "key": "numrodenregistrementlatvadelutilisateurducompte",
             "value": "numrodenregistrementlatvadelutilisateurducompte"
         },
         {
-            "text": "Date d'exp\u00e9dition",
+            "title": "Date d'exp\u00e9dition",
             "sortable": true,
             "key": "datedexpdition",
             "value": "datedexpdition"
         },
         {
-            "text": "\u00c9tat de l'exp\u00e9dition",
+            "title": "\u00c9tat de l'exp\u00e9dition",
             "sortable": true,
             "key": "tatdelexpdition",
             "value": "tatdelexpdition"
         },
         {
-            "text": "Statut de livraison",
+            "title": "Statut de livraison",
             "sortable": true,
             "key": "statutdelivraison",
             "value": "statutdelivraison"
         },
         {
-            "text": "Date de livraison pr\u00e9vue",
+            "title": "Date de livraison pr\u00e9vue",
             "sortable": true,
             "key": "datedelivraisonprvue",
             "value": "datedelivraisonprvue"
         },
         {
-            "text": "Num\u00e9ro de suivi du transporteur",
+            "title": "Num\u00e9ro de suivi du transporteur",
             "sortable": true,
             "key": "numrodesuividutransporteur",
             "value": "numrodesuividutransporteur"
         },
         {
-            "text": "Quantit\u00e9 exp\u00e9di\u00e9e",
+            "title": "Quantit\u00e9 exp\u00e9di\u00e9e",
             "sortable": true,
             "key": "quantitexpdie",
             "value": "quantitexpdie"
         },
         {
-            "text": "Adresse d'exp\u00e9dition",
+            "title": "Adresse d'exp\u00e9dition",
             "sortable": true,
             "key": "adressedexpdition",
             "value": "adressedexpdition"
         },
         {
-            "text": "Sous-total de l'exp\u00e9dition",
+            "title": "Sous-total de l'exp\u00e9dition",
             "sortable": true,
             "key": "soustotaldelexpdition",
             "value": "soustotaldelexpdition"
         },
         {
-            "text": "Traitement et envoi de l'exp\u00e9dition",
+            "title": "Traitement et envoi de l'exp\u00e9dition",
             "sortable": true,
             "key": "traitementetenvoidelexpdition",
             "value": "traitementetenvoidelexpdition"
         },
         {
-            "text": "Promotion sur l'exp\u00e9dition",
+            "title": "Promotion sur l'exp\u00e9dition",
             "sortable": true,
             "key": "promotionsurlexpdition",
             "value": "promotionsurlexpdition"
         },
         {
-            "text": "Taxe d'exp\u00e9dition",
+            "title": "Taxe d'exp\u00e9dition",
             "sortable": true,
             "key": "taxedexpdition",
             "value": "taxedexpdition"
         },
         {
-            "text": "Total net de l'exp\u00e9dition",
+            "title": "Total net de l'exp\u00e9dition",
             "sortable": true,
             "key": "totalnetdelexpdition",
             "value": "totalnetdelexpdition"
         },
         {
-            "text": "Pays\/R\u00e9gion d'exp\u00e9dition",
+            "title": "Pays\/R\u00e9gion d'exp\u00e9dition",
             "sortable": true,
             "key": "paysrgiondexpdition",
             "value": "paysrgiondexpdition"
         },
         {
-            "text": "Sous-total de l'exp\u00e9dition",
+            "title": "Sous-total de l'exp\u00e9dition",
             "sortable": true,
             "key": "soustotaldelexpdition",
             "value": "soustotaldelexpdition"
         },
         {
-            "text": "Nom du transporteur",
+            "title": "Nom du transporteur",
             "sortable": true,
             "key": "nomdutransporteur",
             "value": "nomdutransporteur"
         },
         {
-            "text": "Num\u00e9ro de la facture de TVA",
+            "title": "Num\u00e9ro de la facture de TVA",
             "sortable": true,
             "key": "numrodelafacturedetva",
             "value": "numrodelafacturedetva"
         },
         {
-            "text": "Emballage cadeau de l'exp\u00e9dition",
+            "title": "Emballage cadeau de l'exp\u00e9dition",
             "sortable": true,
             "key": "emballagecadeaudelexpdition",
             "value": "emballagecadeaudelexpdition"
         },
         {
-            "text": "Cat\u00e9gorie de produit interne \u00e0 Amazon",
+            "title": "Cat\u00e9gorie de produit interne \u00e0 Amazon",
             "sortable": true,
             "key": "catgoriedeproduitinterneamazon",
             "value": "catgoriedeproduitinterneamazon"
         },
         {
-            "text": "ASIN",
+            "title": "ASIN",
             "sortable": true,
             "key": "asin",
             "value": "asin"
         },
         {
-            "text": "Titre",
+            "title": "Titre",
             "sortable": true,
             "key": "titre",
             "value": "titre"
         },
         {
-            "text": "UNSPSC",
+            "title": "UNSPSC",
             "sortable": true,
             "key": "unspsc",
             "value": "unspsc"
         },
         {
-            "text": "Segment",
+            "title": "Segment",
             "sortable": true,
             "key": "segment",
             "value": "segment"
         },
         {
-            "text": "FAMILLE",
+            "title": "FAMILLE",
             "sortable": true,
             "key": "famille",
             "value": "famille"
         },
         {
-            "text": "CLASSE",
+            "title": "CLASSE",
             "sortable": true,
             "key": "classe",
             "value": "classe"
         },
         {
-            "text": "PRODUIT",
+            "title": "PRODUIT",
             "sortable": true,
             "key": "produit",
             "value": "produit"
         },
         {
-            "text": "Code de la marque",
+            "title": "Code de la marque",
             "sortable": true,
             "key": "codedelamarque",
             "value": "codedelamarque"
         },
         {
-            "text": "Marque",
+            "title": "Marque",
             "sortable": true,
             "key": "marque",
             "value": "marque"
         },
         {
-            "text": "Fabricant",
+            "title": "Fabricant",
             "sortable": true,
             "key": "fabricant",
             "value": "fabricant"
         },
         {
-            "text": "Num\u00e9ro de stock national",
+            "title": "Num\u00e9ro de stock national",
             "sortable": true,
             "key": "numrodestocknational",
             "value": "numrodestocknational"
         },
         {
-            "text": "Num\u00e9ro de mod\u00e8le de l\u2019article",
+            "title": "Num\u00e9ro de mod\u00e8le de l\u2019article",
             "sortable": true,
             "key": "numrodemodledelarticle",
             "value": "numrodemodledelarticle"
         },
         {
-            "text": "R\u00e9f\u00e9rence",
+            "title": "R\u00e9f\u00e9rence",
             "sortable": true,
             "key": "rfrence",
             "value": "rfrence"
         },
         {
-            "text": "\u00c9tat du produit",
+            "title": "\u00c9tat du produit",
             "sortable": true,
             "key": "tatduproduit",
             "value": "tatduproduit"
         },
         {
-            "text": "Conformit\u00e9 de l'entreprise",
+            "title": "Conformit\u00e9 de l'entreprise",
             "sortable": true,
             "key": "conformitdelentreprise",
             "value": "conformitdelentreprise"
         },
         {
-            "text": "PPU r\u00e9pertori\u00e9",
+            "title": "PPU r\u00e9pertori\u00e9",
             "sortable": true,
             "key": "ppurpertori",
             "value": "ppurpertori"
         },
         {
-            "text": "PPU d'achat",
+            "title": "PPU d'achat",
             "sortable": true,
             "key": "ppudachat",
             "value": "ppudachat"
         },
         {
-            "text": "Quantit\u00e9 d'articles",
+            "title": "Quantit\u00e9 d'articles",
             "sortable": true,
             "key": "quantitdarticles",
             "value": "quantitdarticles"
         },
         {
-            "text": "Sous-total de l'article",
+            "title": "Sous-total de l'article",
             "sortable": true,
             "key": "soustotaldelarticle",
             "value": "soustotaldelarticle"
         },
         {
-            "text": "Traitement et exp\u00e9dition de l'article",
+            "title": "Traitement et exp\u00e9dition de l'article",
             "sortable": true,
             "key": "traitementetexpditiondelarticle",
             "value": "traitementetexpditiondelarticle"
         },
         {
-            "text": "Promotion sur l'article",
+            "title": "Promotion sur l'article",
             "sortable": true,
             "key": "promotionsurlarticle",
             "value": "promotionsurlarticle"
         },
         {
-            "text": "Taxe sur l'article",
+            "title": "Taxe sur l'article",
             "sortable": true,
             "key": "taxesurlarticle",
             "value": "taxesurlarticle"
         },
         {
-            "text": "Total net de l'article",
+            "title": "Total net de l'article",
             "sortable": true,
             "key": "totalnetdelarticle",
             "value": "totalnetdelarticle"
         },
         {
-            "text": "Num\u00e9ro de la ligne de commande",
+            "title": "Num\u00e9ro de la ligne de commande",
             "sortable": true,
             "key": "numrodelalignedecommande",
             "value": "numrodelalignedecommande"
         },
         {
-            "text": "Programme de remise",
+            "title": "Programme de remise",
             "sortable": true,
             "key": "programmederemise",
             "value": "programmederemise"
         },
         {
-            "text": "Remise sur le prix appliqu\u00e9e (\u20ac de r\u00e9duction)",
+            "title": "Remise sur le prix appliqu\u00e9e (\u20ac de r\u00e9duction)",
             "sortable": true,
             "key": "remisesurleprixappliquederduction",
             "value": "remisesurleprixappliquederduction"
         },
         {
-            "text": "Remise sur le prix appliqu\u00e9e (% de r\u00e9duction)",
+            "title": "Remise sur le prix appliqu\u00e9e (% de r\u00e9duction)",
             "sortable": true,
             "key": "remisesurleprixappliquederduction",
             "value": "remisesurleprixappliquederduction"
         },
         {
-            "text": "Taux de TVA sur le sous-total de l'article",
+            "title": "Taux de TVA sur le sous-total de l'article",
             "sortable": true,
             "key": "tauxdetvasurlesoustotaldelarticle",
             "value": "tauxdetvasurlesoustotaldelarticle"
         },
         {
-            "text": "Emballage cadeau de l'article",
+            "title": "Emballage cadeau de l'article",
             "sortable": true,
             "key": "emballagecadeaudelarticle",
             "value": "emballagecadeaudelarticle"
         },
         {
-            "text": "Sous-total de l'article",
+            "title": "Sous-total de l'article",
             "sortable": true,
             "key": "soustotaldelarticle",
             "value": "soustotaldelarticle"
         },
         {
-            "text": "Statut de r\u00e9ception ",
+            "title": "Statut de r\u00e9ception ",
             "sortable": true,
             "key": "statutderception",
             "value": "statutderception"
         },
         {
-            "text": "Quantit\u00e9 re\u00e7ue",
+            "title": "Quantit\u00e9 re\u00e7ue",
             "sortable": true,
             "key": "quantitreue",
             "value": "quantitreue"
         },
         {
-            "text": "Date de r\u00e9ception",
+            "title": "Date de r\u00e9ception",
             "sortable": true,
             "key": "datederception",
             "value": "datederception"
         },
         {
-            "text": "Nom du destinataire",
+            "title": "Nom du destinataire",
             "sortable": true,
             "key": "nomdudestinataire",
             "value": "nomdudestinataire"
         },
         {
-            "text": "E-mail du destinataire",
+            "title": "E-mail du destinataire",
             "sortable": true,
             "key": "emaildudestinataire",
             "value": "emaildudestinataire"
         },
         {
-            "text": "Code GL",
+            "title": "Code GL",
             "sortable": true,
             "key": "codegl",
             "value": "codegl"
         },
         {
-            "text": "Service",
+            "title": "Service",
             "sortable": true,
             "key": "service",
             "value": "service"
         },
         {
-            "text": "Centre de co\u00fbt",
+            "title": "Centre de co\u00fbt",
             "sortable": true,
             "key": "centredecot",
             "value": "centredecot"
         },
         {
-            "text": "Code du projet",
+            "title": "Code du projet",
             "sortable": true,
             "key": "codeduprojet",
             "value": "codeduprojet"
         },
         {
-            "text": "Emplacement",
+            "title": "Emplacement",
             "sortable": true,
             "key": "emplacement",
             "value": "emplacement"
         },
         {
-            "text": "Champ personnalis\u00e9 1",
+            "title": "Champ personnalis\u00e9 1",
             "sortable": true,
             "key": "champpersonnalis1",
             "value": "champpersonnalis1"
         },
         {
-            "text": "Nom du vendeur",
+            "title": "Nom du vendeur",
             "sortable": true,
             "key": "nomduvendeur",
             "value": "nomduvendeur"
         },
         {
-            "text": "Identifiants du vendeur",
+            "title": "Identifiants du vendeur",
             "sortable": true,
             "key": "identifiantsduvendeur",
             "value": "identifiantsduvendeur"
         },
         {
-            "text": "Pays d'enregistrement \u00e0 la TVA du vendeur",
+            "title": "Pays d'enregistrement \u00e0 la TVA du vendeur",
             "sortable": true,
             "key": "paysdenregistrementlatvaduvendeur",
             "value": "paysdenregistrementlatvaduvendeur"
         },
         {
-            "text": "Num\u00e9ro d'enregistrement \u00e0 la TVA du vendeur",
+            "title": "Num\u00e9ro d'enregistrement \u00e0 la TVA du vendeur",
             "sortable": true,
             "key": "numrodenregistrementlatvaduvendeur",
             "value": "numrodenregistrementlatvaduvendeur"
@@ -7095,10 +7095,10 @@
             "asin": "B09WJ5BJH9",
             "titre": "FZONE Aquarium Neo CO2 Diffuseur c\u00e9ramique de Cor\u00e9e du Sud (S)",
             "unspsc": "=\"11000000\"",
-            "segment": "Min\u00e9raux, Textiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
-            "famille": "Min\u00e9raux, Textiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
-            "classe": "Min\u00e9raux, Textiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
-            "produit": "Min\u00e9raux, Textiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
+            "segment": "Min\u00e9raux, titleiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
+            "famille": "Min\u00e9raux, titleiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
+            "classe": "Min\u00e9raux, titleiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
+            "produit": "Min\u00e9raux, titleiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
             "codedelamarque": "",
             "marque": "FZONE",
             "fabricant": "FZONE",
@@ -11712,7 +11712,7 @@
             "asin": "B0BKHD52MQ",
             "titre": "Sphaigne Fra\u00eeche Vivante 5L \/ 500GR, Sphaigne pour Plantes, Orchid\u00e9es, Tubercules, Boutures, Terrarium, Tuteur en Sphaigne, Substrat de Culture Natu",
             "unspsc": "=\"11111500\"",
-            "segment": "Min\u00e9raux, Textiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
+            "segment": "Min\u00e9raux, titleiles et Mati\u00e8res Animales et V\u00e9g\u00e9tales non-comestibles",
             "famille": "Terre et pierre",
             "classe": "Salet\u00e9 et terre",
             "produit": "Salet\u00e9 et terre",
@@ -14788,7 +14788,7 @@
             "emballagecadeaudelexpdition": "",
             "catgoriedeproduitinterneamazon": "Personal Computer",
             "asin": "B09NLMFQGN",
-            "titre": "CZUR Shine Ultra Pro 24MP Scanner de Livres, Scanner de Documents avec Num\u00e9riser des Textes Jusqu'au Format A3 dans Les Bureaux et la Maison, Haute R",
+            "titre": "CZUR Shine Ultra Pro 24MP Scanner de Livres, Scanner de Documents avec Num\u00e9riser des titlees Jusqu'au Format A3 dans Les Bureaux et la Maison, Haute R",
             "unspsc": "=\"43211700\"",
             "segment": "Composants, fournitures et \u00e9quipements informatiques et de communication",
             "famille": "Accessoires et \u00e9quipement informatiques",

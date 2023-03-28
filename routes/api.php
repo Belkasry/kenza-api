@@ -10,6 +10,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/csv-to-json', [\App\Http\Controllers\ApiController::class, 'csvToJson']);
 Route::post('/csv', [\App\Http\Controllers\ApiController::class, 'csvupload']);
 Route::get('/template', [\App\Http\Controllers\ApiController::class, 'getTemplateKeys']);
+Route::post('/template', [\App\Http\Controllers\ApiController::class, 'updateTemplateKeys']);
 Route::post('/config', [\App\Http\Controllers\ApiController::class, 'saveConfig']);
 Route::get('/mappings', [\App\Http\Controllers\ApiController::class, 'getMappings']);
 Route::get('/template_prestataire', [\App\Http\Controllers\ApiController::class, 'loadTemplate']);
