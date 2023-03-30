@@ -30,27 +30,25 @@ class ExcelExportController extends Controller implements FromCollection, WithMa
     public function map($row): array
     {
         $result = [];
-
-        foreach ($this->mapping as $mappingItem) {
-            if ($mappingItem['headerKey'] !== null && array_key_exists($mappingItem['headerKey'], $row)) {
-                $result[$mappingItem['templateKey']] = $row[$mappingItem['headerKey']];
+        $objs = array_column($this->mapping, null, "templateKey");
+        foreach ($this->template as $tmpl) {
+            $headerKey = $objs[$tmpl["key"]]['headerKey'] ?? null;
+            if ($headerKey !== null && array_key_exists($headerKey, $row)) {
+                $result[$tmpl["key"]] = $row[$headerKey];
             } else {
-                $result[$mappingItem['templateKey']] = null; // or provide a default value here
+                $result[$tmpl["key"]] = $tmpl["default"] ?? "";
             }
         }
-
         return $result;
     }
 
     public function headings(): array
     {
         $labels = [];
-        foreach ($this->mapping as $index => $mappingItem) {
-            foreach ($this->template as $templateItem) {
-                if ($templateItem['key'] == $mappingItem['templateKey']) {
-                    $labels[] = $templateItem['label'];
-                    break;
-                }
+        foreach ($this->template as $templateItem) {
+            foreach ($this->mapping as $index => $mappingItem) {
+                $labels[] = $templateItem['label'];
+                break;
             }
         }
         return $labels;
@@ -74,7 +72,7 @@ class ExcelExportController extends Controller implements FromCollection, WithMa
             }
         }
         $sheet->getStyle('A1:' . $sheet->getHighestColumn() . '1')->getFont()->setSize(14);
-        foreach(range('A',$sheet->getHighestColumn()) as $columnID){
+        foreach (range('A', $sheet->getHighestColumn()) as $columnID) {
             $sheet->getColumnDimension($columnID)->setWidth(30);
         }
 
