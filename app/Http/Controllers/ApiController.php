@@ -16,15 +16,11 @@ class ApiController extends Controller
     public function csvupload(Request $request)
     {
         $file = $request->file('csv');
-        // Check if file exists and delete it
         $tmp_file = storage_path('app/tmp.csv');
         if (file_exists($tmp_file)) {
             unlink($tmp_file);
         }
-
-        // Move uploaded file to storage directory
         $file->move(storage_path('app'), 'tmp.csv');
-
         return response()->json(['message' => 'CSV uploaded successfully!']);
     }
 

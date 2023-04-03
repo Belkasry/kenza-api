@@ -77,7 +77,7 @@ class ExcelExportController extends Controller implements FromCollection, WithMa
         }
 
         foreach ($columnsToColor as $columnIndex) {
-            $sheet->getStyleByColumnAndRow($columnIndex, 1, $sheet->getHighestRow())
+            $sheet->getStyleByColumnAndRow($columnIndex, 1)
                 ->getFill()
                 ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
                 ->getStartColor()
